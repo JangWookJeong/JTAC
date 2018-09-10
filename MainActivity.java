@@ -14,7 +14,13 @@ public class MainActivity extends AppCompatActivity {
         string();
         
         s();
+        
+        delete();
     }/////onCreate
+
+    private void delete() {
+        Toast.makeText(this, "인생을 지우다ㅓ.씨발럼들아", Toast.LENGTH_SHORT).show();
+    }
 
     private void s() {
         Toast.makeText(this, "호호", Toast.LENGTH_SHORT).show();
